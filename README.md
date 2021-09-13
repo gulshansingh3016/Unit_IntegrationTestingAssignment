@@ -25,6 +25,7 @@ Add the following validation in respective classes.
         c) Email Validation Class : Checks if email is valid.
         
 ### Using ScalaTest with sbt
-> libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.9"
 
 > libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.9" % "test"
+
+> libraryDependencies += "org.mockito" %% "mockito-scala" % "1.5.12" % "test"
